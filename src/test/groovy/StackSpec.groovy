@@ -20,7 +20,6 @@ class EmptyStackSpec extends Specification {
   def stack = new Stack()
 
   def "size"() {
-    // testing build...
     expect: stack.size() == 0
   }
 
